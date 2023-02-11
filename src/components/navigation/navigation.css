@@ -1,0 +1,21 @@
+.navigation{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation{
+        position: fixed;
+        display: block;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+    .navigation img{
+        width: 100%;
+    }
+
+}
+
+/* svg olarak koydum css ile yazmaya gerek görmedim */

@@ -1,0 +1,111 @@
+header{
+    background-color: #fff;
+    color: #fff;
+    padding: 40px 0 0 0;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 81px;
+    height: 40px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* buttons */
+
+.header-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.btn-wallet{
+    font-size: 12px;
+    font-weight: 700;
+    color: #f40000;
+    padding: 6px 15px;
+    border-radius: 40px;
+    border: 2px solid #eceeef;
+    display: flex;
+    align-items: center;   
+    transition: .1s ease all;
+}
+
+.btn-wallet:hover{
+    background-color: #f40000;
+    color: #fff;
+    border: 2px solid #f40000;
+}
+
+.btn-wallet span{
+    margin-right: 5px;
+}
+
+.btn-login{
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 40px;
+    background-color: #f40000;
+    border: 2px solid #f40000;
+    margin-left: 10px;
+    transition: .1s ease all;
+    
+}
+
+.btn-login:hover{
+    background-color: #fff;
+    color: #f40000;
+
+}
+
+.btn-user{
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    transition: .1s ease all;
+    border: 2px solid #000;
+}
+
+.btn-user:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+@media screen and (max-width: 1201px) {
+
+    .header-container{
+        padding: 0 10px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .btn-wallet{
+        display: none;
+    }
+    .btn-login{
+        padding: 10px;
+    }
+}
